@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Slider</title>
+    <style>
+        .slider {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+        }
+
+        .slide {
+            min-width: 100%;
+            scroll-snap-align: start;
+        }
+
+        img {
+            width: 100%;
+            display: block;
+        }
+        .Title{
+            background-color: gold;
+        }
+    </style>
+</head>
+
+<body>
+<h1 class="Title"><blockquote>LEGENDARY TRIO</blockquote></h1>
+
+    <div class="slider">
+        <div class="slide"><img src="image.png" alt="KHOLI"></div>
+        <div class="slide"><img src="Screenshot 2024-12-25 111001.png" alt="DHONI"></div>
+        <div class="slide"><img src="Rohit Sharma.webp" alt="ROHIT"></div>
+    </div>
+</body>
+
+</html>
